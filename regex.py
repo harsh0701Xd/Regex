@@ -1,9 +1,4 @@
-import os
 import re
-f_location = input('File location - ')
-os.chdir(f_location) # for defining path location for the data.txt file
-#print(os.getcwd())
-#print(os.listdir())
 sum = 0
 fname = input('Enter file name - ')
 fh = open(fname)
